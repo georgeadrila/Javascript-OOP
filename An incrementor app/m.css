@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fredoka;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.ct{
+    border: 2px solid lightcoral;
+    width: 30%;
+    height: 15rem;
+    border-radius: 5px;
+}
+#counter, h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#reduce{
+    background-color: rgba(243, 36, 36, 0.623);
+    border: none;
+    padding: .5rem;
+    border-radius: 3px;
+}
+#save{
+    background-color: rgba(243, 36, 36, 0.623);
+    border: none;
+    padding: .5rem;
+    border-radius: 3px;
+}
+#reset{
+    background-color: rgb(199, 168, 178);
+    border: none;
+    padding: .5rem;
+    border-radius: 3px;
+}
+#increase{
+    background-color: rgb(21, 151, 75);
+    border: none;
+    padding: .5rem;
+    border-radius: 3px;
+}
+
+span{
+    font-size: 2rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 1rem;
+}
